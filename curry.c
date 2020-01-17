@@ -39,7 +39,7 @@ char add(char a, char b){
 
 int main(){
 	char a = 42;
-	char b = 88;
+	char b = 80;
 	
 	//Pass the first parameter and get the curried function
 	char (*addA)(char) = curry(add, a);
